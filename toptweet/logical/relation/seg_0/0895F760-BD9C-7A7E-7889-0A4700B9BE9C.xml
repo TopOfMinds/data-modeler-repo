@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="0895F760-BD9C-7A7E-7889-0A4700B9BE9C">
+<createdBy>lacm</createdBy>
+<createdTime>2016-11-08 15:27:05 UTC</createdTime>
+<ownerDesignName>toptweet</ownerDesignName>
+<engineerTo>
+<item key="FC46645F-4E2E-4FD8-3A93-2874580B3B29" value="true"/>
+</engineerTo>
+<sourcePk>AA59DE5C-6620-F4E1-12F3-05FE283CD596</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>08290BE9-12D6-C001-C726-3A5034C8D9F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB9B8B9D-2833-0824-03B5-F5FD0986A78C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

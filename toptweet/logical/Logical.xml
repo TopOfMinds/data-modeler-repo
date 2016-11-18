@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F824ED59-FD1C-D59E-CDBD-30B8F21E15FF" mainViewID="CD49AEAE-FB9C-409F-4ADF-E2997B2D433B">
+<createdBy>lacm</createdBy>
+<createdTime>2016-11-08 14:59:17 UTC</createdTime>
+<ownerDesignName>toptweet</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

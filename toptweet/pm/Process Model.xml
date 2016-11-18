@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="60191288-B84E-3EF5-A2F4-CCD1B1AAD9C6">
+<createdBy>lacm</createdBy>
+<createdTime>2016-11-08 14:59:17 UTC</createdTime>
+<ownerDesignName>toptweet</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

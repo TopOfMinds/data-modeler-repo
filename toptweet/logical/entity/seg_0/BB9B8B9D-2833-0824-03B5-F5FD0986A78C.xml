@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB9B8B9D-2833-0824-03B5-F5FD0986A78C" name="tweet_user_sender_l">
+<createdBy>lacm</createdBy>
+<createdTime>2016-11-08 15:25:57 UTC</createdTime>
+<ownerDesignName>toptweet</ownerDesignName>
+<engineerTo>
+<item key="FC46645F-4E2E-4FD8-3A93-2874580B3B29" value="true"/>
+</engineerTo>
+<typeID>5</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EA23A44E-EA2F-B7FB-ABE7-711D72ADBFF3">
+<createdBy>lacm</createdBy>
+<createdTime>2016-11-08 15:27:05 UTC</createdTime>
+<generatorID>0895F760-BD9C-7A7E-7889-0A4700B9BE9C</generatorID>
+<ownerDesignName>toptweet</ownerDesignName>
+<engineerTo>
+<item key="FC46645F-4E2E-4FD8-3A93-2874580B3B29" value="true"/>
+</engineerTo>
+<referedAttribute>6627D84F-8815-DA7A-E6CD-9FC65B046E41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="screenname" id="00DE5520-335F-7B1D-CF72-F74C319658FA">
+<createdBy>lacm</createdBy>
+<createdTime>2016-11-08 15:27:11 UTC</createdTime>
+<generatorID>7C19F469-A469-A9DC-9746-F7DB4EFF220A</generatorID>
+<ownerDesignName>toptweet</ownerDesignName>
+<engineerTo>
+<item key="FC46645F-4E2E-4FD8-3A93-2874580B3B29" value="true"/>
+</engineerTo>
+<referedAttribute>F02D70C3-5A9B-4AC9-158D-A54B5D994764</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="801BCC68-44CB-4770-48C5-27006B5D4ABE" name="tweet_user_sender_l PK">
+<createdBy>lacm</createdBy>
+<createdTime>2016-11-08 15:27:17 UTC</createdTime>
+<ownerDesignName>toptweet</ownerDesignName>
+<engineerTo>
+<item key="FC46645F-4E2E-4FD8-3A93-2874580B3B29" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA23A44E-EA2F-B7FB-ABE7-711D72ADBFF3</attributeRef>
+<attributeRef>EA23A44E-EA2F-B7FB-ABE7-711D72ADBFF3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4A4F332-A404-C04F-ADCA-4CBFB0E9DA9A" name="tweet_refered_user_l">
+<createdBy>lacm</createdBy>
+<createdTime>2016-11-08 15:25:57 UTC</createdTime>
+<ownerDesignName>toptweet</ownerDesignName>
+<engineerTo>
+<item key="FC46645F-4E2E-4FD8-3A93-2874580B3B29" value="true"/>
+</engineerTo>
+<typeID>5</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="screenname" id="4038ECB0-754F-9369-23C4-26C879EB5DF8">
+<createdBy>lacm</createdBy>
+<createdTime>2016-11-08 15:27:53 UTC</createdTime>
+<generatorID>F2D4E92C-6355-2ADD-519E-074389FCBF4B</generatorID>
+<ownerDesignName>toptweet</ownerDesignName>
+<engineerTo>
+<item key="FC46645F-4E2E-4FD8-3A93-2874580B3B29" value="true"/>
+</engineerTo>
+<referedAttribute>F02D70C3-5A9B-4AC9-158D-A54B5D994764</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="48313DE7-B238-ABCB-09F2-11CCE65B9442">
+<createdBy>lacm</createdBy>
+<createdTime>2016-11-08 15:27:57 UTC</createdTime>
+<generatorID>E9FE7E4B-05CA-FB3F-AA4C-78E56C0227B8</generatorID>
+<ownerDesignName>toptweet</ownerDesignName>
+<engineerTo>
+<item key="FC46645F-4E2E-4FD8-3A93-2874580B3B29" value="true"/>
+</engineerTo>
+<referedAttribute>6627D84F-8815-DA7A-E6CD-9FC65B046E41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

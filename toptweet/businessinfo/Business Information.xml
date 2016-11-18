@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="36B7E6FF-15DB-DEE5-5971-49F6AFCE0EAC">
+<createdBy>lacm</createdBy>
+<createdTime>2016-11-08 14:59:17 UTC</createdTime>
+<ownerDesignName>toptweet</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
